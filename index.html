@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09090f">
+  <title>SB Chat - AI Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <button id="menuToggle" class="menu-toggle">☰</button>
+    <aside class="sidebar">
+      <h2>⚡ SB Chat</h2>
+      <button id="newChat">+ New Chat</button>
+      <h3 class="history-title">Chat History</h3>
+<div id="chatHistory" class="chat-history"></div>
+      <div class="sidebar-footer">
+  Your AI Assistant
+  <div class="creator-name">Created by Sarthak Bhambare</div>
+</div>
+    </aside>
+
+    <main class="main">
+      <header>
+        <h3>SB Chat AI</h3>
+        <p class="creator-name">Created by Sarthak Bhambare</p>
+        <span>● Online</span>
+      </header>
+
+      <section id="chatMessages" class="messages">
+        <div class="welcome">
+          <h1>Hello! 👋</h1>
+          <p>How can I help you today?</p>
+        </div>
+      </section>
+
+      <form id="chatForm" class="chat-form">
+  <input
+    id="userInput"
+    type="text"
+    placeholder="Message SB Chat..."
+    autocomplete="off"
+    required
+  >
+
+  <button type="submit">Send ➤</button>
+
+  <button type="button" id="imageButton">
+    🎨 Create Image
+  </button>
+</form>
+
+<p class="disclaimer">
+  SB Chat AI can make mistakes. Check important information.
+</p>
+
+</main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
